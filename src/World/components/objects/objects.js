@@ -13,7 +13,7 @@ async function loadObjects() {
     object.scale.set(0.00002, 0.00002, 0.00002);
     object.position.set(0, 0, -0.05);
   } else if (objectID == 1) {
-    const data = await loader.loadAsync('https://vivien000.github.io/trompeloeil/models/parrot.glb');
+    const data = await loader.loadAsync('https://fusiro2.github.io/parrot.glb');
     object = setupModel(data);
     object.scale.set(0.15, 0.15, 0.15);
     object.position.set(0, 0, -0.02);
